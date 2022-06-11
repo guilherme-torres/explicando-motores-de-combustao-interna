@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p, a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    padding: 100px 40px;
+    color: white;
+}
+
+.container h2 {
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+.container p {
+    line-height: 170%;
+}
+
+.container.principal {
+    padding: 0 0 100px;
+}
+
+.container.principal #banner {
+    width: 100%;
+}
+
+.container.principal h1 {
+    font-size: 2.6rem;
+    color: #450005;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+
+.container.principal p {
+    font-weight: normal;
+    color: #5F5F5F;
+}
+
+.container.introducao {
+    background-color: #450005;
+}
+
+.container.admissao {
+    background-color: #C8353E;
+}
+
+.container.compressao {
+    background-color: #BE1F27;
+}
+
+.container.combustao {
+    background-color: #431518;
+}
+
+.container.exaustao {
+    background-color: #8E1118;
+}
+
+.container.citacao {
+    background-color: #1F1F1F;
+}
+
+.container.etapa h2 {
+    margin-bottom: 50px;
+}
+
+.container.etapa p, .container.introducao p {
+    width: min(700px, 100%);
+    margin: 0 auto;
+}
+
+.container.etapa img {
+    margin-top: 30px;
+    max-width: 100%;
+}
+
+.container.links h2 {
+    margin-bottom: 20px;
+    color: #450005;
+}
+
+.container.links ul {
+    list-style: none;
+}
+
+.container.links ul li {
+    margin-top: 6px;
+}
+
+.container.links ul li a {
+    color: #5F5F5F;
+    font-weight: normal;
+}
